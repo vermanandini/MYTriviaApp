@@ -7,36 +7,13 @@ The Android Trivia application is an application that asks the user trivia quest
 The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 Since students haven't yet learned about saving data or the Android lifecycle, it tries to eliminate bugs caused by configuration changes. 
 
-## Screenshots
-
-![Screenshot1](screenshots/screen_1.png) ![Screenshot2](screenshots/screen_2.png)
-
-## How to use this repo while taking the course
 
 
-Each code repository in this class has a chain of commits that looks like this:
-
-![listofcommits](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58befe2e_listofcommits/listofcommits.png)
-
-These commits show every step you'll take to create the app. Each commit contains instructions for completing the that step.
-
-Each commit also has a **branch** associated with it of the same name as the commit message, seen below:
-
-![branches](https://d17h27t6h515a5.cloudfront.net/topher/2017/April/590390fe_branches-ud855/branches-ud855.png
-)
-Access all branches from this tab
-
-![listofbranches](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58befe76_listofbranches/listofbranches.png
-)
 
 
-![branchesdropdown](https://d17h27t6h515a5.cloudfront.net/topher/2017/April/590391a3_branches-dropdown-ud855/branches-dropdown-ud855.png
-)
-
-The branches are also accessible from the drop-down in the "Code" tab
 
 
-## Working with the Course Code
+## Working with the  Code
 
 Here are the basic steps for working with and completing exercises in the repo.
 
@@ -72,9 +49,7 @@ git checkout BRANCH_NAME
 
 Once you've checked out the branch, you'll have the code in the exact state you need. You'll even have TODOs, which are special comments that tell you all the steps you need to complete the exercise. You can easily navigate to all the TODOs using Android Studio's TODO tool. To open the TODO tool, click the button at the bottom of the screen that says TODO. This will display a list of all comments with TODO in the project. 
 
-We've numbered the TODO steps so you can do them in order:
-![todos](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58bf00e7_todos/todos.png
-)
+
 
 **Step 4: Commit your code changes**
 
@@ -85,20 +60,7 @@ git add .
 git commit -m "Your commit message"
 ```
 
-**Step 5: Compare with the solution**
 
-Most exercises will have a list of steps for you to check off in the classroom. Once you've checked these off, you'll see a pop up window with a link to the solution code. Note the **Diff** link:
-
-![solutionwindow](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58bf00f9_solutionwindow/solutionwindow.png
-)
-
-The **Diff** link will take you to a Github diff as seen below:
-![diff](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58bf0108_diffsceenshot/diffsceenshot.png
-)
-
-All of the code that was added in the solution is in green, and the removed code (which will usually be the TODO comments) is in red. 
-
-You can also compare your code locally with the branch of the following step.
 
 ## Report Issues
 Notice any issues with a repository? Please file a github issue in the repository.
